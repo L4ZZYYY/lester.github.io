@@ -1,0 +1,1492 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <title>The Rabbit and The Turtle | Page 2 - The Great Race | Interactive Story</title>
+    
+    <!-- Primary Meta Tags -->
+    <meta name="title" content="The Rabbit and The Turtle - Page 2: The Great Race | Interactive Story">
+    <meta name="description" content="Page 2 of the classic fable 'The Rabbit and The Turtle'. The race begins as the rabbit shows off his speed while the turtle plods along steadily.">
+    <meta name="author" content="Jhon Lester Azarcon">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="article">
+    <meta property="og:title" content="The Rabbit and The Turtle - Page 2: The Great Race">
+    <meta property="og:description" content="The race begins! Will the rabbit's speed win, or will the turtle's steadiness prevail?">
+    <meta property="og:image" content="https://via.placeholder.com/1200x630/2d3436/ffffff?text=The+Great+Race+Begins">
+    
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:title" content="The Rabbit and The Turtle - Page 2">
+    <meta property="twitter:description" content="Interactive story page 2 of 2 - The Race">
+    
+    <!-- Preconnect for performance -->
+    <link rel="preconnect" href="https://cdnjs.cloudflare.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome 6 -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- AOS Animation -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    
+    <!-- Main Stylesheet -->
+    <link rel="stylesheet" href="style.css">
+    
+    <!-- Print Stylesheet -->
+    <link rel="stylesheet" href="print.css" media="print">
+    
+    <!-- Theme color -->
+    <meta name="theme-color" content="#0a192f">
+    
+    <style>
+        /* Critical inline CSS */
+        :root {
+            --primary: #0a192f;
+            --secondary: #172a45;
+            --accent: #64ffda;
+            --text-primary: #ccd6f6;
+            --text-secondary: #8892b0;
+            --background: #0a192f;
+            --card-bg: #112240;
+            --nav-bg: rgba(10, 25, 47, 0.95);
+            --transition: all 0.3s ease;
+            --story-accent: #ff6b6b;
+            --story-secondary: #4ecdc4;
+        }
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: var(--background);
+            color: var(--text-secondary);
+            line-height: 1.6;
+            overflow-x: hidden;
+        }
+        
+        .skip-link {
+            position: absolute;
+            top: -40px;
+            left: 0;
+            background: var(--accent);
+            color: var(--primary);
+            padding: 8px;
+            z-index: 100;
+            text-decoration: none;
+        }
+        
+        .skip-link:focus {
+            top: 0;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+    </style>
+</head>
+<body>
+    <!-- Skip Navigation -->
+    <a href="#main-content" class="skip-link">Skip to main content</a>
+    
+    <!-- Progress Bar -->
+    <div class="progress-container">
+        <div class="progress-bar" id="progress-bar"></div>
+    </div>
+
+    <!-- Header -->
+    <header role="banner" class="story-header">
+        <div class="container">
+            <div class="header-content">
+                <div class="brand">
+                    <a href="index.html" class="logo">
+                        <i class="fas fa-book-open" aria-hidden="true"></i>
+                        <span>JLA Portfolio</span>
+                    </a>
+                </div>
+                
+                <div class="story-progress">
+                    <div class="progress-indicator">
+                        <span class="current-page">Page 2</span>
+                        <span class="separator">/</span>
+                        <span class="total-pages">2</span>
+                    </div>
+                    <div class="progress-bar-small">
+                        <div class="progress-fill" style="width: 100%"></div>
+                    </div>
+                </div>
+                
+                <button class="theme-toggle" id="theme-toggle" aria-label="Toggle theme">
+                    <i class="fas fa-sun" aria-hidden="true"></i>
+                    <i class="fas fa-moon" aria-hidden="true"></i>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Navigation -->
+    <nav class="story-nav" role="navigation" aria-label="Story navigation">
+        <div class="container">
+            <div class="nav-content">
+                <ul class="nav-links" role="menubar">
+                    <li role="none"><a href="index.html" class="nav-link" role="menuitem"><i class="fas fa-home" aria-hidden="true"></i> Home</a></li>
+                    <li role="none"><a href="index.html#projects" class="nav-link" role="menuitem"><i class="fas fa-project-diagram" aria-hidden="true"></i> Projects</a></li>
+                    <li role="none"><a href="s1.html" class="nav-link active" role="menuitem" aria-current="page"><i class="fas fa-book" aria-hidden="true"></i> Story</a></li>
+                </ul>
+                
+                <div class="page-controls">
+                    <a href="s1.html" class="btn btn-outline btn-small">
+                        <i class="fas fa-arrow-left" aria-hidden="true"></i> Previous
+                    </a>
+                    
+                    <div class="page-buttons">
+                        <a href="s1.html" class="page-btn">1</a>
+                        <a href="s2.html" class="page-btn active" aria-current="page">2</a>
+                    </div>
+                    
+                    <a href="index.html" class="btn btn-primary btn-small">
+                        Finish <i class="fas fa-check" aria-hidden="true"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main id="main-content" role="main" class="story-main">
+        <div class="container">
+            <!-- Story Header -->
+            <div class="story-header-section" data-aos="fade-down">
+                <h1 class="story-title">
+                    <span class="title-decoration" aria-hidden="true">🏁</span>
+                    The Great Race Begins
+                    <span class="title-decoration" aria-hidden="true">🎯</span>
+                </h1>
+                <p class="story-subtitle">The rabbit's speed meets the turtle's determination</p>
+                
+                <div class="story-metadata">
+                    <span class="metadata-item">
+                        <i class="fas fa-clock" aria-hidden="true"></i> 2 min read
+                    </span>
+                    <span class="metadata-item">
+                        <i class="fas fa-bookmark" aria-hidden="true"></i> Page 2 of 2
+                    </span>
+                    <span class="metadata-item">
+                        <i class="fas fa-flag-checkered" aria-hidden="true"></i> Final Page
+                    </span>
+                </div>
+            </div>
+
+            <!-- Story Content Grid -->
+            <div class="story-grid">
+                <!-- Illustration Column -->
+                <div class="illustration-column" data-aos="fade-right" data-aos-delay="200">
+                    <div class="illustration-card">
+                        <div class="illustration-container">
+                            <div class="race-showcase">
+                                <div class="race-track">
+                                    <div class="track-line"></div>
+                                    <div class="runner rabbit-runner">
+                                        <span class="runner-icon">🐇</span>
+                                        <span class="runner-speed">⚡⚡⚡</span>
+                                    </div>
+                                    <div class="runner turtle-runner">
+                                        <span class="runner-icon">🐢</span>
+                                        <span class="runner-speed">⏱️⏱️⏱️</span>
+                                    </div>
+                                    <div class="finish-flag">🏁</div>
+                                </div>
+                            </div>
+                            
+                            <div class="illustration-caption">
+                                <i class="fas fa-quote-left" aria-hidden="true"></i>
+                                And they're off! The race has begun!
+                                <i class="fas fa-quote-right" aria-hidden="true"></i>
+                            </div>
+                        </div>
+                        
+                        <div class="illustration-stats">
+                            <div class="stat">
+                                <span class="stat-value">🐇</span>
+                                <span class="stat-label">Rabbit: Fast Start</span>
+                            </div>
+                            <div class="stat">
+                                <span class="stat-value">⚖️</span>
+                                <span class="stat-label">The Challenge</span>
+                            </div>
+                            <div class="stat">
+                                <span class="stat-value">🐢</span>
+                                <span class="stat-label">Turtle: Steady Pace</span>
+                            </div>
+                        </div>
+                        
+                        <div class="race-status">
+                            <h4>Race Progress:</h4>
+                            <div class="race-track-mini">
+                                <div class="track-progress">
+                                    <div class="marker rabbit-marker" style="left: 70%">🐇</div>
+                                    <div class="marker turtle-marker" style="left: 30%">🐢</div>
+                                    <div class="finish-marker">🏁</div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="quick-nav">
+                            <h4>Quick Page Access:</h4>
+                            <div class="page-chips">
+                                <a href="s1.html" class="page-chip">Page 1</a>
+                                <a href="s2.html" class="page-chip active">Page 2</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Story Text Column -->
+                <div class="story-column" data-aos="fade-left" data-aos-delay="300">
+                    <article class="story-article">
+                        <div class="chapter-indicator">
+                            <span class="chapter-number">Chapter 2</span>
+                            <h2 class="chapter-title">The Race Begins</h2>
+                        </div>
+                        
+                        <div class="story-text">
+                            <p class="dropcap">The rabbit laughed even harder at the turtle's words. "You think being steady is better than being fast? Let's have a race then! From this big oak tree to the river. We'll see who wins!"</p>
+                            
+                            <div class="story-quote">
+                                <i class="fas fa-quote-left" aria-hidden="true"></i>
+                                <p>This is going to be the easiest race I've ever run! I might even take a nap!</p>
+                                <cite>— The Rabbit, overconfident as ever</cite>
+                            </div>
+                            
+                            <p>All the animals in the forest gathered to watch. The fox agreed to be the referee. The owl would watch from the trees to make sure no one cheated.</p>
+                            
+                            <div class="story-highlight">
+                                <p>"This is going to be hilarious!" said the squirrel. "The turtle doesn't stand a chance!"</p>
+                            </div>
+                            
+                            <p>The turtle simply nodded. "I accept your challenge, Rabbit. Let the best animal win."</p>
+                            
+                            <p>The fox marked the starting line under the big oak tree and the finish line at the riverbank. The race was about to begin!</p>
+                            
+                            <h3 class="story-subheading">🏁 The Starting Line</h3>
+                            
+                            <p>The rabbit stretched his long legs, feeling confident and proud. He looked at the turtle and smirked. "See you at the finish line... eventually!"</p>
+                            
+                            <p>The turtle took a deep breath, focusing on the path ahead. He knew he was slow, but he also knew that he never gave up.</p>
+                            
+                            <div class="story-dialogue">
+                                <p><strong>Fox (referee):</strong> "On your marks... Get set... GO!"</p>
+                            </div>
+                            
+                            <p>The rabbit shot forward like an arrow, kicking up dust behind him. Within seconds, he was far ahead, leaving the turtle far behind.</p>
+                            
+                            <p>The turtle began his slow but steady pace. Step by step, he moved forward, never stopping, never slowing down.</p>
+                            
+                            <h3 class="story-subheading">⚡ The Rabbit's Confidence</h3>
+                            
+                            <p>The rabbit was so far ahead that he couldn't even see the turtle anymore. "This is too easy!" he thought. "I'm so far ahead, I could take a nap and still win!"</p>
+                            
+                            <p>And that's exactly what he decided to do. The rabbit found a nice shady spot under a tree, yawned, and fell fast asleep.</p>
+                            
+                            <h3 class="story-subheading">🐢 The Turtle's Determination</h3>
+                            
+                            <p>Meanwhile, the turtle kept moving. One slow step after another. He passed the tree where the rabbit was sleeping but didn't stop or slow down. He just kept going, focused on the finish line.</p>
+                            
+                            <p>The animals watching whispered among themselves. "Look! The turtle is passing the sleeping rabbit! Should we wake him?"</p>
+                            
+                            <p>But no one dared. They watched as the turtle slowly but surely made his way toward the river.</p>
+                            
+                            <div class="suspense-box">
+                                <p><i class="fas fa-hourglass-half" aria-hidden="true"></i> Who will reach the finish line first? Will the rabbit wake up in time?</p>
+                            </div>
+                        </div>
+                        
+                        <!-- Vocabulary Box -->
+                        <div class="vocabulary-box">
+                            <h4><i class="fas fa-book" aria-hidden="true"></i> Vocabulary</h4>
+                            <dl>
+                                <div class="vocab-item">
+                                    <dt>Overconfident</dt>
+                                    <dd>Too confident; having too much faith in one's abilities</dd>
+                                </div>
+                                <div class="vocab-item">
+                                    <dt>Determination</dt>
+                                    <dd>Firmness of purpose; the quality that makes you continue trying</dd>
+                                </div>
+                                <div class="vocab-item">
+                                    <dt>Steady</dt>
+                                    <dd>Regular, even, and continuous in development</dd>
+                                </div>
+                            </dl>
+                        </div>
+                        
+                        <!-- Discussion Questions -->
+                        <div class="discussion-box">
+                            <h4><i class="fas fa-comments" aria-hidden="true"></i> Think About It</h4>
+                            <ul>
+                                <li>Why did the rabbit decide to take a nap during the race?</li>
+                                <li>What can we learn from the turtle's approach to the race?</li>
+                                <li>Have you ever seen someone succeed through steady effort rather than quick talent?</li>
+                                <li>What do you think will happen next? (The story continues to the moral...)</li>
+                            </ul>
+                        </div>
+                        
+                        <!-- Moral Preview -->
+                        <div class="moral-box">
+                            <h4><i class="fas fa-lightbulb" aria-hidden="true"></i> The Moral</h4>
+                            <p class="moral-text">"Slow and steady wins the race."</p>
+                            <p class="moral-explanation">The rabbit's overconfidence led him to underestimate his opponent, while the turtle's steady determination kept him moving forward.</p>
+                        </div>
+                    </article>
+                </div>
+            </div>
+            
+            <!-- Story Navigation -->
+            <div class="story-navigation" data-aos="fade-up" data-aos-delay="400">
+                <div class="nav-cards">
+                    <div class="nav-card prev">
+                        <span class="nav-label"><i class="fas fa-arrow-left" aria-hidden="true"></i> Previous</span>
+                        <a href="s1.html" class="nav-link-card">
+                            <span class="nav-title">Back to Page 1</span>
+                            <span class="nav-desc">The challenge begins</span>
+                        </a>
+                    </div>
+                    
+                    <div class="nav-card next finished">
+                        <span class="nav-label">Story Complete <i class="fas fa-check-circle" aria-hidden="true"></i></span>
+                        <a href="index.html" class="nav-link-card">
+                            <span class="nav-title">Return to Portfolio</span>
+                            <span class="nav-desc">View more projects →</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Reading Progress -->
+            <div class="reading-progress">
+                <div class="progress-text">
+                    <span>Reading progress: Page 2 of 2</span>
+                    <span class="percentage">100% Complete</span>
+                </div>
+                <div class="progress-track">
+                    <div class="progress-fill-large" style="width: 100%"></div>
+                </div>
+            </div>
+            
+            <!-- Story Completion -->
+            <div class="completion-card" data-aos="zoom-in">
+                <div class="completion-content">
+                    <div class="completion-icon">🎉</div>
+                    <h3>You've completed the story!</h3>
+                    <p>Thank you for reading "The Rabbit and The Turtle" - a timeless fable about humility and perseverance.</p>
+                    <div class="completion-actions">
+                        <a href="s1.html" class="btn btn-outline">
+                            <i class="fas fa-redo" aria-hidden="true"></i> Read Again
+                        </a>
+                        <a href="index.html" class="btn btn-primary">
+                            <i class="fas fa-home" aria-hidden="true"></i> Back to Portfolio
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer" role="contentinfo">
+        <div class="container">
+            <div class="footer-top">
+                <div class="footer-brand">
+                    <a href="index.html" class="footer-logo">
+                        <i class="fas fa-book-open" aria-hidden="true"></i>
+                        The Rabbit & The Turtle
+                    </a>
+                    <p>An interactive story project by Jhon Lester Azarcon</p>
+                    <p class="footer-course">BSIT - 2A | Educational Portfolio Project</p>
+                </div>
+                
+                <div class="footer-links">
+                    <div class="footer-column">
+                        <h4>Navigation</h4>
+                        <ul>
+                            <li><a href="index.html"><i class="fas fa-home" aria-hidden="true"></i> Portfolio Home</a></li>
+                            <li><a href="index.html#projects"><i class="fas fa-project-diagram" aria-hidden="true"></i> Projects</a></li>
+                            <li><a href="index.html#skills"><i class="fas fa-code" aria-hidden="true"></i> Skills</a></li>
+                        </ul>
+                    </div>
+                    
+                    <div class="footer-column">
+                        <h4>Story Pages</h4>
+                        <ul>
+                            <li><a href="s1.html"><i class="fas fa-bookmark" aria-hidden="true"></i> Page 1: Challenge</a></li>
+                            <li><a href="s2.html" aria-current="page"><i class="fas fa-bookmark" aria-hidden="true"></i> Page 2: The Race</a></li>
+                        </ul>
+                    </div>
+                    
+                    <div class="footer-column">
+                        <h4>Resources</h4>
+                        <ul>
+                            <li><a href="https://validator.w3.org/" target="_blank" rel="noopener noreferrer">HTML Validator</a></li>
+                            <li><a href="https://jigsaw.w3.org/css-validator/" target="_blank" rel="noopener noreferrer">CSS Validator</a></li>
+                            <li><a href="#">Print Story</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2024 Jhon Lester Azarcon. All rights reserved.</p>
+                <div class="footer-badges">
+                    <span class="badge">📖 Interactive Story</span>
+                    <span class="badge">🎨 Educational Project</span>
+                    <span class="badge">✅ WCAG Compliant</span>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button class="back-to-top" id="back-to-top" aria-label="Back to top">
+        <i class="fas fa-arrow-up" aria-hidden="true"></i>
+    </button>
+
+    <!-- Scripts -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    
+    <script>
+        // Initialize AOS
+        AOS.init({
+            duration: 800,
+            once: true,
+            offset: 50,
+            easing: 'ease-in-out'
+        });
+
+        // Progress bar
+        const progressBar = document.getElementById('progress-bar');
+        
+        window.addEventListener('scroll', () => {
+            const winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+            const height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+            const scrolled = (winScroll / height) * 100;
+            progressBar.style.width = scrolled + '%';
+        });
+
+        // Theme toggle
+        const themeToggle = document.getElementById('theme-toggle');
+        
+        themeToggle.addEventListener('click', () => {
+            document.body.classList.toggle('light-theme');
+            const isLight = document.body.classList.contains('light-theme');
+            themeToggle.setAttribute('aria-label', isLight ? 'Switch to dark mode' : 'Switch to light mode');
+            
+            // Save preference
+            localStorage.setItem('theme', isLight ? 'light' : 'dark');
+        });
+
+        // Load saved theme
+        const savedTheme = localStorage.getItem('theme');
+        if (savedTheme === 'light') {
+            document.body.classList.add('light-theme');
+        }
+
+        // Back to top
+        const backToTop = document.getElementById('back-to-top');
+        
+        window.addEventListener('scroll', () => {
+            if (window.scrollY > 300) {
+                backToTop.classList.add('show');
+            } else {
+                backToTop.classList.remove('show');
+            }
+        });
+        
+        backToTop.addEventListener('click', () => {
+            window.scrollTo({
+                top: 0,
+                behavior: 'smooth'
+            });
+        });
+
+        // Keyboard navigation
+        document.addEventListener('keydown', (e) => {
+            if (e.key === 'ArrowLeft' && !e.ctrlKey && !e.metaKey && !e.shiftKey) {
+                // Previous page
+                const prevLink = document.querySelector('a[href="s1.html"]');
+                if (prevLink) {
+                    e.preventDefault();
+                    prevLink.click();
+                }
+            } else if (e.key === 'ArrowRight' && !e.ctrlKey && !e.metaKey && !e.shiftKey) {
+                // Next page (portfolio)
+                const nextLink = document.querySelector('a[href="index.html"]');
+                if (nextLink) {
+                    e.preventDefault();
+                    nextLink.click();
+                }
+            }
+        });
+
+        // Reading time estimate
+        const wordsPerMinute = 200;
+        const storyText = document.querySelector('.story-text')?.innerText || '';
+        const wordCount = storyText.split(/\s+/).length;
+        const readingTime = Math.ceil(wordCount / wordsPerMinute);
+        
+        // Update reading time
+        const readingTimeElement = document.querySelector('.metadata-item .fa-clock')?.parentElement;
+        if (readingTimeElement) {
+            readingTimeElement.innerHTML = `<i class="fas fa-clock" aria-hidden="true"></i> ${readingTime} min read`;
+        }
+
+        // Celebration effect on completion
+        const completionCard = document.querySelector('.completion-card');
+        if (completionCard) {
+            // Add a small animation when the completion card comes into view
+            const observer = new IntersectionObserver((entries) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        entry.target.style.animation = 'celebrate 1s ease';
+                    }
+                });
+            });
+            
+            observer.observe(completionCard);
+        }
+    </script>
+
+    <style>
+        /* Additional story-specific styles */
+        .story-header {
+            padding: 20px 0;
+            background: var(--nav-bg);
+            backdrop-filter: blur(10px);
+            border-bottom: 1px solid rgba(100, 255, 218, 0.1);
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+        
+        .header-content {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        
+        .logo {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            color: var(--accent);
+            text-decoration: none;
+            font-weight: 600;
+        }
+        
+        .story-progress {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+        }
+        
+        .progress-indicator {
+            font-family: 'Space Grotesk', sans-serif;
+            color: var(--text-primary);
+        }
+        
+        .current-page {
+            color: var(--accent);
+            font-weight: 600;
+        }
+        
+        .separator {
+            margin: 0 5px;
+            color: var(--text-secondary);
+        }
+        
+        .progress-bar-small {
+            width: 100px;
+            height: 4px;
+            background: var(--secondary);
+            border-radius: 2px;
+            overflow: hidden;
+        }
+        
+        .progress-fill {
+            height: 100%;
+            background: var(--accent);
+            border-radius: 2px;
+        }
+        
+        .story-nav {
+            padding: 15px 0;
+            background: var(--secondary);
+            border-bottom: 1px solid rgba(100, 255, 218, 0.1);
+        }
+        
+        .nav-content {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 15px;
+        }
+        
+        .nav-links {
+            display: flex;
+            list-style: none;
+            gap: 20px;
+        }
+        
+        .nav-link {
+            color: var(--text-secondary);
+            text-decoration: none;
+            display: flex;
+            align-items: center;
+            gap: 5px;
+            padding: 5px 10px;
+            border-radius: 5px;
+            transition: var(--transition);
+        }
+        
+        .nav-link:hover,
+        .nav-link.active {
+            color: var(--accent);
+            background: rgba(100, 255, 218, 0.1);
+        }
+        
+        .page-controls {
+            display: flex;
+            align-items: center;
+            gap: 20px;
+        }
+        
+        .page-buttons {
+            display: flex;
+            gap: 5px;
+        }
+        
+        .page-btn {
+            width: 35px;
+            height: 35px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: var(--card-bg);
+            color: var(--text-primary);
+            text-decoration: none;
+            border-radius: 5px;
+            transition: var(--transition);
+        }
+        
+        .page-btn:hover,
+        .page-btn.active {
+            background: var(--accent);
+            color: var(--primary);
+        }
+        
+        .btn-small {
+            padding: 8px 15px;
+            font-size: 14px;
+        }
+        
+        .story-main {
+            padding: 60px 0;
+        }
+        
+        .story-title {
+            font-family: 'Playfair Display', serif;
+            font-size: 48px;
+            font-weight: 700;
+            color: var(--text-primary);
+            text-align: center;
+            margin-bottom: 15px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+        
+        .title-decoration {
+            font-size: 40px;
+        }
+        
+        .story-subtitle {
+            text-align: center;
+            font-size: 18px;
+            color: var(--text-secondary);
+            max-width: 700px;
+            margin: 0 auto 30px;
+        }
+        
+        .story-metadata {
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            margin-bottom: 50px;
+            flex-wrap: wrap;
+        }
+        
+        .metadata-item {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            color: var(--text-secondary);
+            font-size: 14px;
+        }
+        
+        .metadata-item i {
+            color: var(--accent);
+        }
+        
+        .story-grid {
+            display: grid;
+            grid-template-columns: 1fr 2fr;
+            gap: 40px;
+            margin-bottom: 60px;
+        }
+        
+        .illustration-card {
+            background: var(--card-bg);
+            border-radius: 15px;
+            padding: 30px;
+            position: sticky;
+            top: 140px;
+        }
+        
+        .race-showcase {
+            margin-bottom: 30px;
+        }
+        
+        .race-track {
+            position: relative;
+            height: 200px;
+            background: linear-gradient(180deg, #2d5a27 0%, #1e3b1a 100%);
+            border-radius: 10px;
+            overflow: hidden;
+            padding: 20px 0;
+        }
+        
+        .track-line {
+            position: absolute;
+            top: 50%;
+            left: 0;
+            width: 100%;
+            height: 4px;
+            background: rgba(255, 255, 255, 0.3);
+            transform: translateY(-50%);
+        }
+        
+        .runner {
+            position: absolute;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            animation: move 3s ease-in-out infinite;
+        }
+        
+        .rabbit-runner {
+            top: 30px;
+            left: 70%;
+            animation-delay: 0s;
+        }
+        
+        .turtle-runner {
+            bottom: 30px;
+            left: 30%;
+            animation-delay: 1s;
+        }
+        
+        .runner-icon {
+            font-size: 40px;
+        }
+        
+        .runner-speed {
+            font-size: 12px;
+            color: white;
+            margin-top: 5px;
+        }
+        
+        .finish-flag {
+            position: absolute;
+            right: 20px;
+            top: 50%;
+            transform: translateY(-50%);
+            font-size: 40px;
+        }
+        
+        @keyframes move {
+            0%, 100% { transform: translateX(0); }
+            50% { transform: translateX(10px); }
+        }
+        
+        .illustration-caption {
+            text-align: center;
+            font-style: italic;
+            color: var(--text-secondary);
+            padding: 15px 0;
+            border-top: 1px solid rgba(100, 255, 218, 0.1);
+            border-bottom: 1px solid rgba(100, 255, 218, 0.1);
+        }
+        
+        .illustration-stats {
+            display: flex;
+            justify-content: space-around;
+            margin: 20px 0;
+        }
+        
+        .stat {
+            text-align: center;
+        }
+        
+        .stat-value {
+            display: block;
+            font-size: 24px;
+            margin-bottom: 5px;
+        }
+        
+        .stat-label {
+            font-size: 12px;
+            color: var(--text-secondary);
+        }
+        
+        .race-status {
+            margin: 20px 0;
+        }
+        
+        .race-status h4 {
+            color: var(--text-primary);
+            margin-bottom: 10px;
+            font-size: 16px;
+        }
+        
+        .race-track-mini {
+            background: var(--secondary);
+            height: 40px;
+            border-radius: 20px;
+            position: relative;
+        }
+        
+        .track-progress {
+            position: relative;
+            width: 100%;
+            height: 100%;
+        }
+        
+        .marker {
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            font-size: 24px;
+        }
+        
+        .rabbit-marker {
+            z-index: 2;
+        }
+        
+        .turtle-marker {
+            z-index: 1;
+        }
+        
+        .finish-marker {
+            position: absolute;
+            right: 5px;
+            top: 50%;
+            transform: translateY(-50%);
+            font-size: 20px;
+        }
+        
+        .quick-nav h4 {
+            color: var(--text-primary);
+            margin-bottom: 10px;
+            font-size: 16px;
+        }
+        
+        .page-chips {
+            display: flex;
+            gap: 10px;
+            flex-wrap: wrap;
+        }
+        
+        .page-chip {
+            padding: 8px 15px;
+            background: var(--secondary);
+            color: var(--text-primary);
+            text-decoration: none;
+            border-radius: 20px;
+            font-size: 14px;
+            transition: var(--transition);
+        }
+        
+        .page-chip:hover,
+        .page-chip.active {
+            background: var(--accent);
+            color: var(--primary);
+        }
+        
+        .chapter-indicator {
+            margin-bottom: 30px;
+        }
+        
+        .chapter-number {
+            color: var(--accent);
+            font-size: 14px;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+        }
+        
+        .chapter-title {
+            font-family: 'Playfair Display', serif;
+            font-size: 32px;
+            color: var(--text-primary);
+            margin-top: 5px;
+        }
+        
+        .story-text {
+            font-size: 18px;
+            line-height: 1.8;
+        }
+        
+        .story-text p {
+            margin-bottom: 25px;
+        }
+        
+        .dropcap::first-letter {
+            font-size: 60px;
+            font-weight: 700;
+            float: left;
+            line-height: 1;
+            margin-right: 10px;
+            color: var(--accent);
+            font-family: 'Playfair Display', serif;
+        }
+        
+        .story-subheading {
+            color: var(--accent);
+            margin: 30px 0 15px;
+            font-size: 24px;
+        }
+        
+        .story-quote {
+            background: var(--secondary);
+            padding: 30px;
+            border-radius: 10px;
+            margin: 30px 0;
+            position: relative;
+        }
+        
+        .story-quote i {
+            color: var(--accent);
+            font-size: 24px;
+            opacity: 0.5;
+        }
+        
+        .story-quote p {
+            font-size: 20px;
+            font-style: italic;
+            color: var(--text-primary);
+            margin: 15px 0;
+        }
+        
+        .story-quote cite {
+            color: var(--text-secondary);
+            font-size: 14px;
+        }
+        
+        .story-dialogue {
+            background: var(--card-bg);
+            padding: 20px;
+            border-left: 4px solid var(--accent);
+            margin: 30px 0;
+            font-size: 20px;
+        }
+        
+        .story-highlight {
+            background: linear-gradient(135deg, var(--accent) 0%, #4ecdc4 100%);
+            color: var(--primary);
+            padding: 20px;
+            border-radius: 10px;
+            margin: 30px 0;
+            font-weight: 600;
+        }
+        
+        .suspense-box {
+            background: var(--secondary);
+            padding: 25px;
+            border-radius: 10px;
+            margin: 30px 0;
+            text-align: center;
+            border: 2px dashed var(--accent);
+        }
+        
+        .suspense-box p {
+            font-size: 20px;
+            color: var(--accent);
+            margin: 0;
+        }
+        
+        .vocabulary-box,
+        .discussion-box,
+        .moral-box {
+            background: var(--secondary);
+            padding: 25px;
+            border-radius: 10px;
+            margin: 30px 0;
+        }
+        
+        .vocabulary-box h4,
+        .discussion-box h4,
+        .moral-box h4 {
+            color: var(--accent);
+            margin-bottom: 20px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        
+        .vocab-item {
+            margin-bottom: 15px;
+        }
+        
+        .vocab-item dt {
+            font-weight: 600;
+            color: var(--text-primary);
+            margin-bottom: 5px;
+        }
+        
+        .vocab-item dd {
+            margin-left: 20px;
+            color: var(--text-secondary);
+            font-size: 14px;
+        }
+        
+        .discussion-box ul {
+            list-style: none;
+        }
+        
+        .discussion-box li {
+            margin-bottom: 10px;
+            padding-left: 25px;
+            position: relative;
+        }
+        
+        .discussion-box li::before {
+            content: '💭';
+            position: absolute;
+            left: 0;
+            top: 0;
+        }
+        
+        .moral-text {
+            font-size: 28px;
+            font-weight: 700;
+            color: var(--accent);
+            text-align: center;
+            margin: 20px 0;
+            font-family: 'Playfair Display', serif;
+        }
+        
+        .moral-explanation {
+            text-align: center;
+            font-style: italic;
+        }
+        
+        .story-navigation {
+            margin: 60px 0;
+        }
+        
+        .nav-cards {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+        }
+        
+        .nav-card {
+            padding: 20px;
+            background: var(--card-bg);
+            border-radius: 10px;
+        }
+        
+        .nav-card.prev {
+            text-align: left;
+        }
+        
+        .nav-card.next {
+            text-align: right;
+        }
+        
+        .nav-card.finished {
+            background: linear-gradient(135deg, var(--accent) 0%, #4ecdc4 100%);
+        }
+        
+        .nav-card.finished .nav-label,
+        .nav-card.finished .nav-title,
+        .nav-card.finished .nav-desc {
+            color: var(--primary);
+        }
+        
+        .nav-label {
+            display: block;
+            color: var(--accent);
+            font-size: 14px;
+            margin-bottom: 10px;
+        }
+        
+        .nav-link-card {
+            text-decoration: none;
+        }
+        
+        .nav-title {
+            display: block;
+            color: var(--text-primary);
+            font-size: 18px;
+            font-weight: 600;
+            margin-bottom: 5px;
+        }
+        
+        .nav-desc {
+            color: var(--text-secondary);
+            font-size: 14px;
+        }
+        
+        .reading-progress {
+            margin: 40px 0;
+        }
+        
+        .progress-text {
+            display: flex;
+            justify-content: space-between;
+            color: var(--text-secondary);
+            font-size: 14px;
+            margin-bottom: 10px;
+        }
+        
+        .percentage {
+            color: var(--accent);
+            font-weight: 600;
+        }
+        
+        .progress-track {
+            width: 100%;
+            height: 8px;
+            background: var(--secondary);
+            border-radius: 4px;
+            overflow: hidden;
+        }
+        
+        .progress-fill-large {
+            height: 100%;
+            background: var(--accent);
+            border-radius: 4px;
+            transition: width 0.3s ease;
+        }
+        
+        .completion-card {
+            background: linear-gradient(135deg, var(--card-bg) 0%, var(--secondary) 100%);
+            border-radius: 20px;
+            padding: 50px;
+            text-align: center;
+            margin: 60px 0;
+            border: 2px solid var(--accent);
+        }
+        
+        @keyframes celebrate {
+            0%, 100% { transform: scale(1); }
+            50% { transform: scale(1.05); }
+        }
+        
+        .completion-icon {
+            font-size: 80px;
+            margin-bottom: 20px;
+            animation: bounce 2s infinite;
+        }
+        
+        @keyframes bounce {
+            0%, 100% { transform: translateY(0); }
+            50% { transform: translateY(-20px); }
+        }
+        
+        .completion-card h3 {
+            font-size: 32px;
+            color: var(--accent);
+            margin-bottom: 15px;
+        }
+        
+        .completion-card p {
+            font-size: 18px;
+            max-width: 600px;
+            margin: 0 auto 30px;
+        }
+        
+        .completion-actions {
+            display: flex;
+            gap: 20px;
+            justify-content: center;
+        }
+        
+        .footer {
+            background: var(--secondary);
+            padding: 60px 0 20px;
+            margin-top: 60px;
+        }
+        
+        .footer-top {
+            display: grid;
+            grid-template-columns: 1fr 2fr;
+            gap: 60px;
+            margin-bottom: 40px;
+        }
+        
+        .footer-logo {
+            color: var(--text-primary);
+            text-decoration: none;
+            font-size: 24px;
+            font-weight: 600;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            margin-bottom: 15px;
+        }
+        
+        .footer-logo i {
+            color: var(--accent);
+        }
+        
+        .footer-course {
+            margin-top: 10px;
+            color: var(--accent);
+            font-size: 14px;
+        }
+        
+        .footer-links {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 40px;
+        }
+        
+        .footer-column h4 {
+            color: var(--text-primary);
+            margin-bottom: 20px;
+            font-size: 16px;
+        }
+        
+        .footer-column ul {
+            list-style: none;
+        }
+        
+        .footer-column li {
+            margin-bottom: 10px;
+        }
+        
+        .footer-column a {
+            color: var(--text-secondary);
+            text-decoration: none;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            transition: var(--transition);
+        }
+        
+        .footer-column a:hover {
+            color: var(--accent);
+            transform: translateX(5px);
+        }
+        
+        .footer-column i {
+            width: 20px;
+            color: var(--accent);
+        }
+        
+        .footer-bottom {
+            text-align: center;
+            padding-top: 20px;
+            border-top: 1px solid rgba(100, 255, 218, 0.1);
+        }
+        
+        .footer-badges {
+            display: flex;
+            gap: 15px;
+            justify-content: center;
+            margin-top: 15px;
+            flex-wrap: wrap;
+        }
+        
+        .footer-badges .badge {
+            background: var(--card-bg);
+            color: var(--text-secondary);
+            padding: 5px 10px;
+            border-radius: 20px;
+            font-size: 12px;
+        }
+        
+        .back-to-top {
+            position: fixed;
+            bottom: 30px;
+            right: 30px;
+            width: 50px;
+            height: 50px;
+            background: var(--accent);
+            color: var(--primary);
+            border: none;
+            border-radius: 50%;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 20px;
+            opacity: 0;
+            visibility: hidden;
+            transition: var(--transition);
+            z-index: 99;
+        }
+        
+        .back-to-top.show {
+            opacity: 1;
+            visibility: visible;
+        }
+        
+        .back-to-top:hover {
+            transform: translateY(-5px);
+            background: var(--text-primary);
+        }
+        
+        /* Light theme */
+        body.light-theme {
+            --primary: #f5f5f5;
+            --secondary: #e0e0e0;
+            --accent: #0a66c2;
+            --text-primary: #333;
+            --text-secondary: #666;
+            --background: #fff;
+            --card-bg: #f0f0f0;
+            --nav-bg: rgba(255, 255, 255, 0.95);
+        }
+        
+        body.light-theme .story-highlight {
+            color: var(--text-primary);
+        }
+        
+        /* Responsive */
+        @media (max-width: 992px) {
+            .story-grid {
+                grid-template-columns: 1fr;
+            }
+            
+            .illustration-card {
+                position: static;
+            }
+            
+            .story-title {
+                font-size: 36px;
+            }
+            
+            .nav-content {
+                flex-direction: column;
+            }
+            
+            .footer-top {
+                grid-template-columns: 1fr;
+                gap: 40px;
+            }
+        }
+        
+        @media (max-width: 768px) {
+            .story-title {
+                font-size: 28px;
+                flex-direction: column;
+                gap: 10px;
+            }
+            
+            .story-metadata {
+                flex-direction: column;
+                align-items: center;
+                gap: 15px;
+            }
+            
+            .page-controls {
+                flex-wrap: wrap;
+                justify-content: center;
+            }
+            
+            .nav-cards {
+                grid-template-columns: 1fr;
+            }
+            
+            .completion-actions {
+                flex-direction: column;
+            }
+            
+            .footer-links {
+                grid-template-columns: 1fr;
+                gap: 30px;
+            }
+            
+            .footer-badges {
+                flex-direction: column;
+                align-items: center;
+            }
+        }
+        
+        @media (max-width: 480px) {
+            .race-track {
+                height: 150px;
+            }
+            
+            .chapter-title {
+                font-size: 24px;
+            }
+            
+            .story-text {
+                font-size: 16px;
+            }
+            
+            .moral-text {
+                font-size: 24px;
+            }
+            
+            .completion-card {
+                padding: 30px;
+            }
+            
+            .completion-card h3 {
+                font-size: 24px;
+            }
+        }
+        
+        /* Print styles */
+        @media print {
+            .story-nav,
+            .footer,
+            .back-to-top,
+            .theme-toggle,
+            .progress-container,
+            .completion-actions {
+                display: none;
+            }
+            
+            .story-header {
+                position: static;
+                background: none;
+                color: black;
+            }
+            
+            .story-text {
+                color: black;
+            }
+        }
+    </style>
+</body>
+</html>

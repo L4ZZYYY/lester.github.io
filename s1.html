@@ -1,0 +1,1317 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <title>The Rabbit and The Turtle | Page 1 - The Challenge | Interactive Story</title>
+    
+    <!-- Primary Meta Tags -->
+    <meta name="title" content="The Rabbit and The Turtle - Page 1: The Challenge | Interactive Story">
+    <meta name="description" content="Read the classic fable 'The Rabbit and The Turtle' in this beautifully designed interactive story. Page 1: The Challenge begins.">
+    <meta name="author" content="Jhon Lester Azarcon">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="article">
+    <meta property="og:title" content="The Rabbit and The Turtle - Page 1: The Challenge">
+    <meta property="og:description" content="Join the rabbit and turtle in this classic tale about pride and perseverance.">
+    <meta property="og:image" content="https://via.placeholder.com/1200x630/2d3436/ffffff?text=The+Rabbit+and+The+Turtle">
+    
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:title" content="The Rabbit and The Turtle - Page 1">
+    <meta property="twitter:description" content="Interactive story page 1 of 2">
+    
+    <!-- Preconnect for performance -->
+    <link rel="preconnect" href="https://cdnjs.cloudflare.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome 6 -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- AOS Animation -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    
+    <!-- Main Stylesheet -->
+    <link rel="stylesheet" href="style.css">
+    
+    <!-- Print Stylesheet -->
+    <link rel="stylesheet" href="print.css" media="print">
+    
+    <!-- Theme color -->
+    <meta name="theme-color" content="#0a192f">
+    
+    <style>
+        /* Critical inline CSS */
+        :root {
+            --primary: #0a192f;
+            --secondary: #172a45;
+            --accent: #64ffda;
+            --text-primary: #ccd6f6;
+            --text-secondary: #8892b0;
+            --background: #0a192f;
+            --card-bg: #112240;
+            --nav-bg: rgba(10, 25, 47, 0.95);
+            --transition: all 0.3s ease;
+            --story-accent: #ff6b6b;
+            --story-secondary: #4ecdc4;
+        }
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: var(--background);
+            color: var(--text-secondary);
+            line-height: 1.6;
+            overflow-x: hidden;
+        }
+        
+        .skip-link {
+            position: absolute;
+            top: -40px;
+            left: 0;
+            background: var(--accent);
+            color: var(--primary);
+            padding: 8px;
+            z-index: 100;
+            text-decoration: none;
+        }
+        
+        .skip-link:focus {
+            top: 0;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+    </style>
+</head>
+<body>
+    <!-- Skip Navigation -->
+    <a href="#main-content" class="skip-link">Skip to main content</a>
+    
+    <!-- Progress Bar -->
+    <div class="progress-container">
+        <div class="progress-bar" id="progress-bar"></div>
+    </div>
+
+    <!-- Header -->
+    <header role="banner" class="story-header">
+        <div class="container">
+            <div class="header-content">
+                <div class="brand">
+                    <a href="index.html" class="logo">
+                        <i class="fas fa-book-open" aria-hidden="true"></i>
+                        <span>JLA Portfolio</span>
+                    </a>
+                </div>
+                
+                <div class="story-progress">
+                    <div class="progress-indicator">
+                        <span class="current-page">Page 1</span>
+                        <span class="separator">/</span>
+                        <span class="total-pages">2</span>
+                    </div>
+                    <div class="progress-bar-small">
+                        <div class="progress-fill" style="width: 50%"></div>
+                    </div>
+                </div>
+                
+                <button class="theme-toggle" id="theme-toggle" aria-label="Toggle theme">
+                    <i class="fas fa-sun" aria-hidden="true"></i>
+                    <i class="fas fa-moon" aria-hidden="true"></i>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Navigation -->
+    <nav class="story-nav" role="navigation" aria-label="Story navigation">
+        <div class="container">
+            <div class="nav-content">
+                <ul class="nav-links" role="menubar">
+                    <li role="none"><a href="index.html" class="nav-link" role="menuitem"><i class="fas fa-home" aria-hidden="true"></i> Home</a></li>
+                    <li role="none"><a href="index.html#projects" class="nav-link" role="menuitem"><i class="fas fa-project-diagram" aria-hidden="true"></i> Projects</a></li>
+                    <li role="none"><a href="s1.html" class="nav-link active" role="menuitem" aria-current="page"><i class="fas fa-book" aria-hidden="true"></i> Story</a></li>
+                </ul>
+                
+                <div class="page-controls">
+                    <a href="index.html" class="btn btn-outline btn-small">
+                        <i class="fas fa-arrow-left" aria-hidden="true"></i> Back
+                    </a>
+                    
+                    <div class="page-buttons">
+                        <a href="s1.html" class="page-btn active" aria-current="page">1</a>
+                        <a href="s2.html" class="page-btn">2</a>
+                    </div>
+                    
+                    <a href="s2.html" class="btn btn-primary btn-small">
+                        Next <i class="fas fa-arrow-right" aria-hidden="true"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main id="main-content" role="main" class="story-main">
+        <div class="container">
+            <!-- Story Header -->
+            <div class="story-header-section" data-aos="fade-down">
+                <h1 class="story-title">
+                    <span class="title-decoration" aria-hidden="true">📖</span>
+                    The Rabbit and The Turtle
+                    <span class="title-decoration" aria-hidden="true">🐢</span>
+                </h1>
+                <p class="story-subtitle">A timeless fable about pride, perseverance, and the power of consistency</p>
+                
+                <div class="story-metadata">
+                    <span class="metadata-item">
+                        <i class="fas fa-clock" aria-hidden="true"></i> 3 min read
+                    </span>
+                    <span class="metadata-item">
+                        <i class="fas fa-bookmark" aria-hidden="true"></i> Page 1 of 2
+                    </span>
+                    <span class="metadata-item">
+                        <i class="fas fa-tag" aria-hidden="true"></i> Fable · Classic
+                    </span>
+                </div>
+            </div>
+
+            <!-- Story Content Grid -->
+            <div class="story-grid">
+                <!-- Illustration Column -->
+                <div class="illustration-column" data-aos="fade-right" data-aos-delay="200">
+                    <div class="illustration-card">
+                        <div class="illustration-container">
+                            <div class="character-showcase">
+                                <div class="character rabbit-character">
+                                    <div class="character-icon">🐇</div>
+                                    <div class="character-name">Rabbit</div>
+                                    <div class="character-trait">Fast & Proud</div>
+                                </div>
+                                <div class="vs-badge">VS</div>
+                                <div class="character turtle-character">
+                                    <div class="character-icon">🐢</div>
+                                    <div class="character-name">Turtle</div>
+                                    <div class="character-trait">Slow & Steady</div>
+                                </div>
+                            </div>
+                            
+                            <div class="illustration-caption">
+                                <i class="fas fa-quote-left" aria-hidden="true"></i>
+                                The challenge is about to begin...
+                                <i class="fas fa-quote-right" aria-hidden="true"></i>
+                            </div>
+                        </div>
+                        
+                        <div class="illustration-stats">
+                            <div class="stat">
+                                <span class="stat-value">🏁</span>
+                                <span class="stat-label">Challenge</span>
+                            </div>
+                            <div class="stat">
+                                <span class="stat-value">⚡</span>
+                                <span class="stat-label">Speed</span>
+                            </div>
+                            <div class="stat">
+                                <span class="stat-value">🎯</span>
+                                <span class="stat-label">Perseverance</span>
+                            </div>
+                        </div>
+                        
+                        <div class="quick-nav">
+                            <h4>Quick Page Access:</h4>
+                            <div class="page-chips">
+                                <a href="s1.html" class="page-chip active">Page 1</a>
+                                <a href="s2.html" class="page-chip">Page 2</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Story Text Column -->
+                <div class="story-column" data-aos="fade-left" data-aos-delay="300">
+                    <article class="story-article">
+                        <div class="chapter-indicator">
+                            <span class="chapter-number">Chapter 1</span>
+                            <h2 class="chapter-title">The Challenge Begins</h2>
+                        </div>
+                        
+                        <div class="story-text">
+                            <p class="dropcap">Once upon a time, in a lush green forest filled with chattering animals and babbling brooks, there lived a rabbit who was known far and wide for his incredible speed. His ears would flatten against the wind as he zoomed through the meadows, leaving trails of dust behind him.</p>
+                            
+                            <p>"I'm the fastest creature in the entire forest!" the rabbit would boast to anyone who would listen. "No one — not the deer, not the fox, and certainly not the slow-moving turtle — can ever beat me in a race!"</p>
+                            
+                            <div class="story-quote">
+                                <i class="fas fa-quote-left" aria-hidden="true"></i>
+                                <p>You're so slow, you probably take all day to cross a puddle! Ha ha ha!</p>
+                                <cite>— The Rabbit, mocking the Turtle</cite>
+                            </div>
+                            
+                            <p>The turtle, who was making his way along the forest path at his usual unhurried pace, heard the rabbit's mockery. The other animals giggled, but the turtle simply smiled. He was used to jokes about his speed. But today, something was different. Today, the turtle felt a spark of determination.</p>
+                            
+                            <p>"Rabbit," the turtle called out in his calm, steady voice, "your speed is indeed impressive. But speed alone doesn't win races. I may be slow, but I am steady. I challenge you to a race."</p>
+                            
+                            <div class="story-highlight">
+                                <p>The forest fell silent. The animals couldn't believe their ears. The turtle was challenging the rabbit to a race!</p>
+                            </div>
+                            
+                            <p>The rabbit laughed so hard he had to hold his sides. "You? Challenge me? This will be the easiest race I've ever run! I could take a nap halfway and still win!"</p>
+                            
+                            <p>"Then you accept?" asked the turtle.</p>
+                            
+                            <p>"Of course I accept!" declared the rabbit. "Let's ask the wise old owl to set the course and be the judge."</p>
+                            
+                            <p>And so, the challenge was set. The news spread throughout the forest like wildfire. All the animals gathered to discuss the upcoming race. Some thought the rabbit was foolish to accept, others thought the turtle was brave but misguided. Everyone agreed on one thing — it would be a race to remember.</p>
+                        </div>
+                        
+                        <!-- Vocabulary Box -->
+                        <div class="vocabulary-box">
+                            <h4><i class="fas fa-book" aria-hidden="true"></i> Vocabulary</h4>
+                            <dl>
+                                <div class="vocab-item">
+                                    <dt>Boast</dt>
+                                    <dd>To talk with excessive pride about oneself</dd>
+                                </div>
+                                <div class="vocab-item">
+                                    <dt>Perseverance</dt>
+                                    <dd>Continued effort to do something despite difficulties</dd>
+                                </div>
+                                <div class="vocab-item">
+                                    <dt>Determination</dt>
+                                    <dd>Firmness of purpose; resoluteness</dd>
+                                </div>
+                            </dl>
+                        </div>
+                        
+                        <!-- Discussion Questions -->
+                        <div class="discussion-box">
+                            <h4><i class="fas fa-comments" aria-hidden="true"></i> Think About It</h4>
+                            <ul>
+                                <li>Why do you think the rabbit was so confident?</li>
+                                <li>What gave the turtle courage to challenge the rabbit?</li>
+                                <li>Can you think of a time when being steady helped you achieve something?</li>
+                            </ul>
+                        </div>
+                    </article>
+                </div>
+            </div>
+            
+            <!-- Story Navigation -->
+            <div class="story-navigation" data-aos="fade-up" data-aos-delay="400">
+                <div class="nav-cards">
+                    <div class="nav-card prev">
+                        <span class="nav-label"><i class="fas fa-arrow-left" aria-hidden="true"></i> Previous</span>
+                        <a href="index.html" class="nav-link-card">
+                            <span class="nav-title">Back to Portfolio</span>
+                            <span class="nav-desc">Return to main portfolio</span>
+                        </a>
+                    </div>
+                    
+                    <div class="nav-card next">
+                        <span class="nav-label">Next <i class="fas fa-arrow-right" aria-hidden="true"></i></span>
+                        <a href="s2.html" class="nav-link-card">
+                            <span class="nav-title">Continue to Page 2</span>
+                            <span class="nav-desc">The race begins →</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Reading Progress -->
+            <div class="reading-progress">
+                <div class="progress-text">
+                    <span>Reading progress: Page 1 of 2</span>
+                    <span class="percentage">50% Complete</span>
+                </div>
+                <div class="progress-track">
+                    <div class="progress-fill-large" style="width: 50%"></div>
+                </div>
+            </div>
+            
+            <!-- Related Stories -->
+            <div class="related-stories" data-aos="fade-up">
+                <h3>Continue Your Reading Journey</h3>
+                <div class="story-cards">
+                    <a href="s2.html" class="story-card">
+                        <div class="card-number">02</div>
+                        <div class="card-content">
+                            <h4>The Great Race</h4>
+                            <p>Page 2: The race begins with an unexpected start</p>
+                            <span class="card-link">Read Next <i class="fas fa-arrow-right" aria-hidden="true"></i></span>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer" role="contentinfo">
+        <div class="container">
+            <div class="footer-top">
+                <div class="footer-brand">
+                    <a href="index.html" class="footer-logo">
+                        <i class="fas fa-book-open" aria-hidden="true"></i>
+                        The Rabbit & The Turtle
+                    </a>
+                    <p>An interactive story project by Jhon Lester Azarcon</p>
+                    <p class="footer-course">BSIT - 2A | Educational Portfolio Project</p>
+                </div>
+                
+                <div class="footer-links">
+                    <div class="footer-column">
+                        <h4>Navigation</h4>
+                        <ul>
+                            <li><a href="index.html"><i class="fas fa-home" aria-hidden="true"></i> Portfolio Home</a></li>
+                            <li><a href="index.html#projects"><i class="fas fa-project-diagram" aria-hidden="true"></i> Projects</a></li>
+                            <li><a href="index.html#skills"><i class="fas fa-code" aria-hidden="true"></i> Skills</a></li>
+                        </ul>
+                    </div>
+                    
+                    <div class="footer-column">
+                        <h4>Story Pages</h4>
+                        <ul>
+                            <li><a href="s1.html" aria-current="page"><i class="fas fa-bookmark" aria-hidden="true"></i> Page 1: Challenge</a></li>
+                            <li><a href="s2.html"><i class="fas fa-bookmark" aria-hidden="true"></i> Page 2: The Race</a></li>
+                        </ul>
+                    </div>
+                    
+                    <div class="footer-column">
+                        <h4>Resources</h4>
+                        <ul>
+                            <li><a href="https://validator.w3.org/" target="_blank" rel="noopener noreferrer">HTML Validator</a></li>
+                            <li><a href="https://jigsaw.w3.org/css-validator/" target="_blank" rel="noopener noreferrer">CSS Validator</a></li>
+                            <li><a href="#">Print Story</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2024 Jhon Lester Azarcon. All rights reserved.</p>
+                <div class="footer-badges">
+                    <span class="badge">📖 Interactive Story</span>
+                    <span class="badge">🎨 Educational Project</span>
+                    <span class="badge">✅ WCAG Compliant</span>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button class="back-to-top" id="back-to-top" aria-label="Back to top">
+        <i class="fas fa-arrow-up" aria-hidden="true"></i>
+    </button>
+
+    <!-- Scripts -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    
+    <script>
+        // Initialize AOS
+        AOS.init({
+            duration: 800,
+            once: true,
+            offset: 50,
+            easing: 'ease-in-out'
+        });
+
+        // Progress bar
+        const progressBar = document.getElementById('progress-bar');
+        
+        window.addEventListener('scroll', () => {
+            const winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+            const height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+            const scrolled = (winScroll / height) * 100;
+            progressBar.style.width = scrolled + '%';
+        });
+
+        // Theme toggle
+        const themeToggle = document.getElementById('theme-toggle');
+        
+        themeToggle.addEventListener('click', () => {
+            document.body.classList.toggle('light-theme');
+            const isLight = document.body.classList.contains('light-theme');
+            themeToggle.setAttribute('aria-label', isLight ? 'Switch to dark mode' : 'Switch to light mode');
+            
+            // Save preference
+            localStorage.setItem('theme', isLight ? 'light' : 'dark');
+        });
+
+        // Load saved theme
+        const savedTheme = localStorage.getItem('theme');
+        if (savedTheme === 'light') {
+            document.body.classList.add('light-theme');
+        }
+
+        // Back to top
+        const backToTop = document.getElementById('back-to-top');
+        
+        window.addEventListener('scroll', () => {
+            if (window.scrollY > 300) {
+                backToTop.classList.add('show');
+            } else {
+                backToTop.classList.remove('show');
+            }
+        });
+        
+        backToTop.addEventListener('click', () => {
+            window.scrollTo({
+                top: 0,
+                behavior: 'smooth'
+            });
+        });
+
+        // Keyboard navigation
+        document.addEventListener('keydown', (e) => {
+            if (e.key === 'ArrowRight' && !e.ctrlKey && !e.metaKey && !e.shiftKey) {
+                // Next page
+                const nextLink = document.querySelector('a[href="s2.html"]');
+                if (nextLink) {
+                    e.preventDefault();
+                    nextLink.click();
+                }
+            } else if (e.key === 'ArrowLeft' && !e.ctrlKey && !e.metaKey && !e.shiftKey) {
+                // Previous page
+                const prevLink = document.querySelector('a[href="index.html"]');
+                if (prevLink) {
+                    e.preventDefault();
+                    prevLink.click();
+                }
+            }
+        });
+
+        // Reading time estimate
+        const wordsPerMinute = 200;
+        const storyText = document.querySelector('.story-text')?.innerText || '';
+        const wordCount = storyText.split(/\s+/).length;
+        const readingTime = Math.ceil(wordCount / wordsPerMinute);
+        
+        // Update reading time if element exists
+        const readingTimeElement = document.querySelector('.metadata-item .fa-clock')?.parentElement;
+        if (readingTimeElement) {
+            readingTimeElement.innerHTML = `<i class="fas fa-clock" aria-hidden="true"></i> ${readingTime} min read`;
+        }
+    </script>
+
+    <style>
+        /* Additional story-specific styles */
+        .story-header {
+            padding: 20px 0;
+            background: var(--nav-bg);
+            backdrop-filter: blur(10px);
+            border-bottom: 1px solid rgba(100, 255, 218, 0.1);
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+        
+        .header-content {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        
+        .logo {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            color: var(--accent);
+            text-decoration: none;
+            font-weight: 600;
+        }
+        
+        .story-progress {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+        }
+        
+        .progress-indicator {
+            font-family: 'Space Grotesk', sans-serif;
+            color: var(--text-primary);
+        }
+        
+        .current-page {
+            color: var(--accent);
+            font-weight: 600;
+        }
+        
+        .separator {
+            margin: 0 5px;
+            color: var(--text-secondary);
+        }
+        
+        .progress-bar-small {
+            width: 100px;
+            height: 4px;
+            background: var(--secondary);
+            border-radius: 2px;
+            overflow: hidden;
+        }
+        
+        .progress-fill {
+            height: 100%;
+            background: var(--accent);
+            border-radius: 2px;
+        }
+        
+        .story-nav {
+            padding: 15px 0;
+            background: var(--secondary);
+            border-bottom: 1px solid rgba(100, 255, 218, 0.1);
+        }
+        
+        .nav-content {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 15px;
+        }
+        
+        .nav-links {
+            display: flex;
+            list-style: none;
+            gap: 20px;
+        }
+        
+        .nav-link {
+            color: var(--text-secondary);
+            text-decoration: none;
+            display: flex;
+            align-items: center;
+            gap: 5px;
+            padding: 5px 10px;
+            border-radius: 5px;
+            transition: var(--transition);
+        }
+        
+        .nav-link:hover,
+        .nav-link.active {
+            color: var(--accent);
+            background: rgba(100, 255, 218, 0.1);
+        }
+        
+        .page-controls {
+            display: flex;
+            align-items: center;
+            gap: 20px;
+        }
+        
+        .page-buttons {
+            display: flex;
+            gap: 5px;
+        }
+        
+        .page-btn {
+            width: 35px;
+            height: 35px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: var(--card-bg);
+            color: var(--text-primary);
+            text-decoration: none;
+            border-radius: 5px;
+            transition: var(--transition);
+        }
+        
+        .page-btn:hover,
+        .page-btn.active {
+            background: var(--accent);
+            color: var(--primary);
+        }
+        
+        .btn-small {
+            padding: 8px 15px;
+            font-size: 14px;
+        }
+        
+        .story-main {
+            padding: 60px 0;
+        }
+        
+        .story-title {
+            font-family: 'Playfair Display', serif;
+            font-size: 48px;
+            font-weight: 700;
+            color: var(--text-primary);
+            text-align: center;
+            margin-bottom: 15px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 20px;
+        }
+        
+        .title-decoration {
+            font-size: 40px;
+        }
+        
+        .story-subtitle {
+            text-align: center;
+            font-size: 18px;
+            color: var(--text-secondary);
+            max-width: 700px;
+            margin: 0 auto 30px;
+        }
+        
+        .story-metadata {
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            margin-bottom: 50px;
+            flex-wrap: wrap;
+        }
+        
+        .metadata-item {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            color: var(--text-secondary);
+            font-size: 14px;
+        }
+        
+        .metadata-item i {
+            color: var(--accent);
+        }
+        
+        .story-grid {
+            display: grid;
+            grid-template-columns: 1fr 2fr;
+            gap: 40px;
+            margin-bottom: 60px;
+        }
+        
+        .illustration-card {
+            background: var(--card-bg);
+            border-radius: 15px;
+            padding: 30px;
+            position: sticky;
+            top: 140px;
+        }
+        
+        .character-showcase {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-bottom: 30px;
+            padding: 20px;
+            background: var(--secondary);
+            border-radius: 10px;
+        }
+        
+        .character {
+            text-align: center;
+        }
+        
+        .character-icon {
+            font-size: 60px;
+            margin-bottom: 10px;
+            animation: float 3s ease-in-out infinite;
+        }
+        
+        .rabbit-character .character-icon {
+            animation-delay: 0s;
+        }
+        
+        .turtle-character .character-icon {
+            animation-delay: 1.5s;
+        }
+        
+        @keyframes float {
+            0%, 100% { transform: translateY(0); }
+            50% { transform: translateY(-10px); }
+        }
+        
+        .character-name {
+            font-weight: 600;
+            color: var(--text-primary);
+        }
+        
+        .character-trait {
+            font-size: 12px;
+            color: var(--accent);
+        }
+        
+        .vs-badge {
+            font-size: 24px;
+            font-weight: 800;
+            color: var(--story-accent);
+            background: var(--secondary);
+            width: 50px;
+            height: 50px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 50%;
+        }
+        
+        .illustration-caption {
+            text-align: center;
+            font-style: italic;
+            color: var(--text-secondary);
+            padding: 15px 0;
+            border-top: 1px solid rgba(100, 255, 218, 0.1);
+            border-bottom: 1px solid rgba(100, 255, 218, 0.1);
+        }
+        
+        .illustration-stats {
+            display: flex;
+            justify-content: space-around;
+            margin: 20px 0;
+        }
+        
+        .stat {
+            text-align: center;
+        }
+        
+        .stat-value {
+            display: block;
+            font-size: 24px;
+            margin-bottom: 5px;
+        }
+        
+        .stat-label {
+            font-size: 12px;
+            color: var(--text-secondary);
+        }
+        
+        .quick-nav h4 {
+            color: var(--text-primary);
+            margin-bottom: 10px;
+            font-size: 16px;
+        }
+        
+        .page-chips {
+            display: flex;
+            gap: 10px;
+            flex-wrap: wrap;
+        }
+        
+        .page-chip {
+            padding: 8px 15px;
+            background: var(--secondary);
+            color: var(--text-primary);
+            text-decoration: none;
+            border-radius: 20px;
+            font-size: 14px;
+            transition: var(--transition);
+        }
+        
+        .page-chip:hover,
+        .page-chip.active {
+            background: var(--accent);
+            color: var(--primary);
+        }
+        
+        .chapter-indicator {
+            margin-bottom: 30px;
+        }
+        
+        .chapter-number {
+            color: var(--accent);
+            font-size: 14px;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+        }
+        
+        .chapter-title {
+            font-family: 'Playfair Display', serif;
+            font-size: 32px;
+            color: var(--text-primary);
+            margin-top: 5px;
+        }
+        
+        .story-text {
+            font-size: 18px;
+            line-height: 1.8;
+        }
+        
+        .story-text p {
+            margin-bottom: 25px;
+        }
+        
+        .dropcap::first-letter {
+            font-size: 60px;
+            font-weight: 700;
+            float: left;
+            line-height: 1;
+            margin-right: 10px;
+            color: var(--accent);
+            font-family: 'Playfair Display', serif;
+        }
+        
+        .story-quote {
+            background: var(--secondary);
+            padding: 30px;
+            border-radius: 10px;
+            margin: 30px 0;
+            position: relative;
+        }
+        
+        .story-quote i {
+            color: var(--accent);
+            font-size: 24px;
+            opacity: 0.5;
+        }
+        
+        .story-quote p {
+            font-size: 20px;
+            font-style: italic;
+            color: var(--text-primary);
+            margin: 15px 0;
+        }
+        
+        .story-quote cite {
+            color: var(--text-secondary);
+            font-size: 14px;
+        }
+        
+        .story-highlight {
+            background: linear-gradient(135deg, var(--accent) 0%, #4ecdc4 100%);
+            color: var(--primary);
+            padding: 20px;
+            border-radius: 10px;
+            margin: 30px 0;
+            font-weight: 600;
+        }
+        
+        .vocabulary-box,
+        .discussion-box {
+            background: var(--secondary);
+            padding: 25px;
+            border-radius: 10px;
+            margin: 30px 0;
+        }
+        
+        .vocabulary-box h4,
+        .discussion-box h4 {
+            color: var(--accent);
+            margin-bottom: 20px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        
+        .vocab-item {
+            margin-bottom: 15px;
+        }
+        
+        .vocab-item dt {
+            font-weight: 600;
+            color: var(--text-primary);
+            margin-bottom: 5px;
+        }
+        
+        .vocab-item dd {
+            margin-left: 20px;
+            color: var(--text-secondary);
+            font-size: 14px;
+        }
+        
+        .discussion-box ul {
+            list-style: none;
+        }
+        
+        .discussion-box li {
+            margin-bottom: 10px;
+            padding-left: 25px;
+            position: relative;
+        }
+        
+        .discussion-box li::before {
+            content: '💭';
+            position: absolute;
+            left: 0;
+            top: 0;
+        }
+        
+        .story-navigation {
+            margin: 60px 0;
+        }
+        
+        .nav-cards {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+        }
+        
+        .nav-card {
+            padding: 20px;
+            background: var(--card-bg);
+            border-radius: 10px;
+        }
+        
+        .nav-card.prev {
+            text-align: left;
+        }
+        
+        .nav-card.next {
+            text-align: right;
+        }
+        
+        .nav-label {
+            display: block;
+            color: var(--accent);
+            font-size: 14px;
+            margin-bottom: 10px;
+        }
+        
+        .nav-link-card {
+            text-decoration: none;
+        }
+        
+        .nav-title {
+            display: block;
+            color: var(--text-primary);
+            font-size: 18px;
+            font-weight: 600;
+            margin-bottom: 5px;
+        }
+        
+        .nav-desc {
+            color: var(--text-secondary);
+            font-size: 14px;
+        }
+        
+        .reading-progress {
+            margin: 40px 0;
+        }
+        
+        .progress-text {
+            display: flex;
+            justify-content: space-between;
+            color: var(--text-secondary);
+            font-size: 14px;
+            margin-bottom: 10px;
+        }
+        
+        .percentage {
+            color: var(--accent);
+            font-weight: 600;
+        }
+        
+        .progress-track {
+            width: 100%;
+            height: 8px;
+            background: var(--secondary);
+            border-radius: 4px;
+            overflow: hidden;
+        }
+        
+        .progress-fill-large {
+            height: 100%;
+            background: var(--accent);
+            border-radius: 4px;
+            transition: width 0.3s ease;
+        }
+        
+        .related-stories h3 {
+            color: var(--text-primary);
+            font-size: 24px;
+            margin-bottom: 30px;
+            text-align: center;
+        }
+        
+        .story-cards {
+            display: grid;
+            grid-template-columns: 1fr;
+            max-width: 400px;
+            margin: 0 auto;
+        }
+        
+        .story-card {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            padding: 20px;
+            background: var(--card-bg);
+            border-radius: 10px;
+            text-decoration: none;
+            transition: var(--transition);
+        }
+        
+        .story-card:hover {
+            transform: translateY(-5px);
+            background: var(--secondary);
+        }
+        
+        .card-number {
+            font-size: 40px;
+            font-weight: 800;
+            color: var(--accent);
+            opacity: 0.3;
+        }
+        
+        .card-content h4 {
+            color: var(--text-primary);
+            margin-bottom: 5px;
+        }
+        
+        .card-content p {
+            color: var(--text-secondary);
+            font-size: 14px;
+            margin-bottom: 10px;
+        }
+        
+        .card-link {
+            color: var(--accent);
+            font-size: 14px;
+            font-weight: 600;
+        }
+        
+        .footer {
+            background: var(--secondary);
+            padding: 60px 0 20px;
+            margin-top: 60px;
+        }
+        
+        .footer-top {
+            display: grid;
+            grid-template-columns: 1fr 2fr;
+            gap: 60px;
+            margin-bottom: 40px;
+        }
+        
+        .footer-logo {
+            color: var(--text-primary);
+            text-decoration: none;
+            font-size: 24px;
+            font-weight: 600;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            margin-bottom: 15px;
+        }
+        
+        .footer-logo i {
+            color: var(--accent);
+        }
+        
+        .footer-course {
+            margin-top: 10px;
+            color: var(--accent);
+            font-size: 14px;
+        }
+        
+        .footer-links {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 40px;
+        }
+        
+        .footer-column h4 {
+            color: var(--text-primary);
+            margin-bottom: 20px;
+            font-size: 16px;
+        }
+        
+        .footer-column ul {
+            list-style: none;
+        }
+        
+        .footer-column li {
+            margin-bottom: 10px;
+        }
+        
+        .footer-column a {
+            color: var(--text-secondary);
+            text-decoration: none;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            transition: var(--transition);
+        }
+        
+        .footer-column a:hover {
+            color: var(--accent);
+            transform: translateX(5px);
+        }
+        
+        .footer-column i {
+            width: 20px;
+            color: var(--accent);
+        }
+        
+        .footer-bottom {
+            text-align: center;
+            padding-top: 20px;
+            border-top: 1px solid rgba(100, 255, 218, 0.1);
+        }
+        
+        .footer-badges {
+            display: flex;
+            gap: 15px;
+            justify-content: center;
+            margin-top: 15px;
+        }
+        
+        .footer-badges .badge {
+            background: var(--card-bg);
+            color: var(--text-secondary);
+            padding: 5px 10px;
+            border-radius: 20px;
+            font-size: 12px;
+        }
+        
+        .back-to-top {
+            position: fixed;
+            bottom: 30px;
+            right: 30px;
+            width: 50px;
+            height: 50px;
+            background: var(--accent);
+            color: var(--primary);
+            border: none;
+            border-radius: 50%;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 20px;
+            opacity: 0;
+            visibility: hidden;
+            transition: var(--transition);
+            z-index: 99;
+        }
+        
+        .back-to-top.show {
+            opacity: 1;
+            visibility: visible;
+        }
+        
+        .back-to-top:hover {
+            transform: translateY(-5px);
+            background: var(--text-primary);
+        }
+        
+        /* Light theme */
+        body.light-theme {
+            --primary: #f5f5f5;
+            --secondary: #e0e0e0;
+            --accent: #0a66c2;
+            --text-primary: #333;
+            --text-secondary: #666;
+            --background: #fff;
+            --card-bg: #f0f0f0;
+            --nav-bg: rgba(255, 255, 255, 0.95);
+        }
+        
+        body.light-theme .story-highlight {
+            color: var(--text-primary);
+        }
+        
+        /* Responsive */
+        @media (max-width: 992px) {
+            .story-grid {
+                grid-template-columns: 1fr;
+            }
+            
+            .illustration-card {
+                position: static;
+            }
+            
+            .story-title {
+                font-size: 36px;
+            }
+            
+            .nav-content {
+                flex-direction: column;
+            }
+            
+            .footer-top {
+                grid-template-columns: 1fr;
+                gap: 40px;
+            }
+        }
+        
+        @media (max-width: 768px) {
+            .story-title {
+                font-size: 28px;
+                flex-direction: column;
+                gap: 10px;
+            }
+            
+            .story-metadata {
+                flex-direction: column;
+                align-items: center;
+                gap: 15px;
+            }
+            
+            .page-controls {
+                flex-wrap: wrap;
+                justify-content: center;
+            }
+            
+            .nav-cards {
+                grid-template-columns: 1fr;
+            }
+            
+            .footer-links {
+                grid-template-columns: 1fr;
+                gap: 30px;
+            }
+            
+            .footer-badges {
+                flex-direction: column;
+                align-items: center;
+            }
+        }
+        
+        @media (max-width: 480px) {
+            .character-showcase {
+                flex-direction: column;
+                gap: 20px;
+            }
+            
+            .vs-badge {
+                transform: rotate(90deg);
+            }
+            
+            .chapter-title {
+                font-size: 24px;
+            }
+            
+            .story-text {
+                font-size: 16px;
+            }
+        }
+        
+        /* Print styles */
+        @media print {
+            .story-nav,
+            .footer,
+            .back-to-top,
+            .theme-toggle,
+            .progress-container {
+                display: none;
+            }
+            
+            .story-header {
+                position: static;
+                background: none;
+                color: black;
+            }
+            
+            .story-text {
+                color: black;
+            }
+        }
+    </style>
+</body>
+</html>
